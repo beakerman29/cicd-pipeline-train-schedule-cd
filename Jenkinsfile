@@ -1,9 +1,9 @@
 pipeline {
-    agent any
+    agent none
     stages {
         stage('Build') {
             agent { 
-                node('CentosTest2')
+                node('CentosTest02')
             }
             steps {
                 echo 'Running build automation'
