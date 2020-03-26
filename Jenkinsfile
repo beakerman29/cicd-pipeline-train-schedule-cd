@@ -1,7 +1,7 @@
 pipeline {
   agent {
     node {
-      label 'CentosTest02'
+      label 'nginx'
     }
 
   }
