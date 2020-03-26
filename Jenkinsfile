@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Build') {
       agent {
-        node 'CentosTest02'
+        node('CentosTest02')
       }
       steps {
         echo 'Running build automation'
